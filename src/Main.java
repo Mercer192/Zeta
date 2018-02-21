@@ -20,12 +20,17 @@ public class Main {
                 "2.Load Game\n" +
                 "0. Exit\n");
         System.out.println("Selection ->");
-        Scanner Menuinput = new Scanner(System.in);
-        int input = Menuinput.nextInt();
+        Scanner menuInput = new Scanner(System.in);
+        int input = menuInput.nextInt();
 
         switch(input)
         {
             case NEWGAME:
+                System.out.println("New game being created...\n");
+                System.out.println("Enter your character name: ");
+                String name = menuInput.next();
+                System.out.println();
+
                 //New Game call
                 break;
             case LOADGAME:

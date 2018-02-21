@@ -3,5 +3,8 @@
  *
  **/
 public class Game {
-
+    public void newGame(String name)
+    {
+        //create new load Maybe create a database type of system???
+    }
 }
