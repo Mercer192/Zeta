@@ -7,4 +7,14 @@ public class Game {
     {
         //create new load Maybe create a database type of system???
     }
+
+    public Game loadGame(int gameToLoad)
+    {
+        Game loadedGame = new Game();//Place holder for now
+        //Load game and return it maybe??
+
+        return loadedGame;
+    }
+
+
 }
